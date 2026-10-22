@@ -1,15 +1,12 @@
 import "./App.css";
+import profilePic from "./assets/engineering-woman-photo.webp";
 
 function App() {
   return (
     <>
       <section className="card-container">
         <div className="photo-container">
-          <img
-            src="/src/assets/engineering-woman-photo.webp"
-            alt="Photo of developer"
-            className="photo"
-          />
+          <img src={profilePic} alt="Photo of developer" className="photo" />
         </div>
         <section className="info-container">
           <h1>Laura Smith</h1>
