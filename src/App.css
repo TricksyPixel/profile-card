@@ -1,7 +1,7 @@
 .card-container {
   background-color: #f5f5f5;
   width: 19rem;
-  margin: 1rem auto;
+  margin: 2rem auto;
   border-radius: 1rem;
 }
 
@@ -13,7 +13,8 @@
 .portfolio-link {
   color: #4a4e74;
   font-size: 0.6em;
-  line-height: 2em;
+  line-height: 2.5em;
+  letter-spacing: 0.02em;
 }
 
 .photo-container {
@@ -33,7 +34,9 @@
 
 .info-container > h1 {
   line-height: 1em;
+  font-size: 1.6em;
   margin-top: 0.5rem;
+  color: #2b283a;
 }
 
 .info-container > h1,
@@ -44,6 +47,7 @@
 }
 
 .job-title {
+  letter-spacing: 0.03em;
   font-size: 0.75em;
   padding-top: 0.25rem;
   color: #f47d27;
@@ -51,6 +55,7 @@
 
 .info-container > h2 {
   font-size: 1em;
+  color: #2b283a;
 }
 
 .info-container > h2:first-of-type {
@@ -73,10 +78,10 @@
 .email-button,
 .linkedin-button {
   width: 47%;
-  height: 1.75rem;
-  margin-top: 1rem;
+  height: 2rem;
+  margin-top: 0.8rem;
   margin-bottom: 1rem;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,12 +91,13 @@
 .email-button {
   margin-right: 1rem;
   border: #c5c5c9 solid 1px;
+  background-color: white;
 }
 
 .email-button > svg,
 .linkedin-button > svg {
-  width: 0.85rem;
-  height: 0.85rem;
+  width: 0.95rem;
+  height: 0.95rem;
   margin-right: 0.4rem;
 }
 
@@ -110,7 +116,8 @@
 
 .button-link {
   letter-spacing: 0.04em;
-  font-size: 0.85em;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .blurb {
@@ -125,6 +132,8 @@
   background-color: #d5d4d8;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  padding: 0 3.5rem;
 }
 
 .social-media-container > div {
